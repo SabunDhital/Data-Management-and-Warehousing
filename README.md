@@ -1,16 +1,8 @@
-# README: SQL Homework Collection  
-**Author:** Sabun Dhital  
-**Course:** Business Analytics  
-**Tool:** Microsoft SQL Server  
-**Database Used:** WideWorldImporters
 
-## Contents
+SQL Homework Assignments
+This repository contains a collection of SQL homework assignments demonstrating various database concepts and techniques using the WideWorldImporters database.
 
-This repository contains SQL scripts for a series of structured homework assignments demonstrating core and advanced SQL skills. Each script is well-commented and grouped by the respective homework number.
-
----
-
-## 🧾 Files Overview
+Files Overview
 
 ### `sabun_dhital_sql_hw1.sql`
 - Basic SQL queries
@@ -61,18 +53,49 @@ This repository contains SQL scripts for a series of structured homework assignm
 - Cursors and loops
 - `SET NOCOUNT`, dynamic SQL with `sp_executesql`
 
----
+Database Used
+WideWorldImporters - Microsoft's sample database for SQL Server
 
-## How to Run
+Getting Started
 
-1. Open SQL Server Management Studio (SSMS)
-2. Connect to the **WideWorldImporters** database
-3. Copy and execute each `.sql` script separately
-4. Review results in the Results pane and Messages pane
+Prerequisites:
+SQL Server (any recent version)
+WideWorldImporters sample database installed
+SQL Server Management Studio (SSMS) or similar SQL client
 
----
+Database Setup:
+sql USE WideWorldImporters;
 
-## 📌 Notes
-- Each script contains detailed inline comments for guidance.
-- Recommended to run in order if building upon created tables or views.
-- Ensure `WideWorldImporters` database is restored/available before execution.
+Running the Scripts:
+Execute each homework file in sequence
+Some assignments build upon previous work
+Check comments for specific requirements and expected results
+
+Sample Query Results
+Many queries include expected row counts in comments, for example:
+
+Assignment 4, Problem 1: 624 rows returned
+Assignment 4, Problem 2: 10 rows returned
+Assignment 7, Query 2: Top 5 longest customer names
+
+Learning Objectives
+These assignments progressively build SQL skills from basic query construction to advanced database programming concepts. Key learning outcomes include:
+
+Mastery of SQL syntax and query structure
+Understanding of relational database concepts
+Proficiency in data manipulation and transformation
+Knowledge of advanced SQL features and functions
+Experience with database object creation and management
+Skills in T-SQL programming and error handling
+
+Notes
+All scripts use the WideWorldImporters database
+Table aliases are used extensively for readability
+Comments explain the purpose and expected results of each query
+Error handling and best practices are demonstrated throughout
+Code follows consistent formatting and naming conventions
+
+**Author:** Sabun Dhital  
+**Tool:** Microsoft SQL Server  
+**Database Used:** WideWorldImporters
+
