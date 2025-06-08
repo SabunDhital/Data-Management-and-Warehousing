@@ -53,32 +53,33 @@ Files Overview
 - Cursors and loops
 - `SET NOCOUNT`, dynamic SQL with `sp_executesql`
 
-Database Used
+## Database Used
 WideWorldImporters - Microsoft's sample database for SQL Server
 
-Getting Started
+## Getting Started
 
 Prerequisites:
 SQL Server (any recent version)
 WideWorldImporters sample database installed
 SQL Server Management Studio (SSMS) or similar SQL client
 
-Database Setup:
+## Database Setup:
 sql USE WideWorldImporters;
 
-Running the Scripts:
+## Running the Scripts:
 Execute each homework file in sequence
 Some assignments build upon previous work
 Check comments for specific requirements and expected results
 
-Sample Query Results
+## Sample Query Results
 Many queries include expected row counts in comments, for example:
 
 Assignment 4, Problem 1: 624 rows returned
 Assignment 4, Problem 2: 10 rows returned
 Assignment 7, Query 2: Top 5 longest customer names
 
-Learning Objectives
+
+## Learning Objectives
 These assignments progressively build SQL skills from basic query construction to advanced database programming concepts. Key learning outcomes include:
 
 Mastery of SQL syntax and query structure
@@ -88,12 +89,14 @@ Knowledge of advanced SQL features and functions
 Experience with database object creation and management
 Skills in T-SQL programming and error handling
 
-Notes
+
+## Notes
 All scripts use the WideWorldImporters database
 Table aliases are used extensively for readability
 Comments explain the purpose and expected results of each query
 Error handling and best practices are demonstrated throughout
 Code follows consistent formatting and naming conventions
+
 
 **Author:** Sabun Dhital  
 **Tool:** Microsoft SQL Server  
