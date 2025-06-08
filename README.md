@@ -2,7 +2,7 @@
 SQL Homework Assignments
 This repository contains a collection of SQL homework assignments demonstrating various database concepts and techniques using the WideWorldImporters database.
 
-##Files Overview
+## Files Overview
 
 #### `sabun_dhital_sql_hw1.sql`
 - Basic SQL queries
